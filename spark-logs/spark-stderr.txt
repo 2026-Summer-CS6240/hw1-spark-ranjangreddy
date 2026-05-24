@@ -1,0 +1,96 @@
+26/05/24 01:57:26 WARN NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+26/05/24 01:57:27 WARN DependencyUtils: Skip remote jar s3://cs6240-ranjan-hw1/spark-demo.jar.
+26/05/24 01:57:27 INFO DefaultNoHARMFailoverProxyProvider: Connecting to ResourceManager at ip-172-31-43-75.ec2.internal/172.31.43.75:8032
+26/05/24 01:57:28 INFO Configuration: resource-types.xml not found
+26/05/24 01:57:28 INFO ResourceUtils: Unable to find 'resource-types.xml'.
+26/05/24 01:57:28 INFO Client: Verifying our application has not requested more than the maximum memory capability of the cluster (6144 MB per container)
+26/05/24 01:57:28 INFO Client: Will allocate AM container, with 2432 MB memory including 384 MB overhead
+26/05/24 01:57:28 INFO Client: Setting up container launch context for our AM
+26/05/24 01:57:28 INFO Client: Setting up the launch environment for our AM container
+26/05/24 01:57:28 INFO Client: Preparing resources for our AM container
+26/05/24 01:57:28 WARN Client: Neither spark.yarn.jars nor spark.yarn.archive is set, falling back to uploading libraries under SPARK_HOME.
+26/05/24 01:57:32 INFO Client: Uploading resource file:/mnt/tmp/spark-f982fbc2-5ac3-4ea7-893c-e6216f464a1d/__spark_libs__8537252929947043198.zip -> hdfs://ip-172-31-43-75.ec2.internal:8020/user/hadoop/.sparkStaging/application_1779587745463_0001/__spark_libs__8537252929947043198.zip
+26/05/24 01:57:37 INFO ClientConfigurationFactory: Set initial getObject socket timeout to 2000 ms.
+26/05/24 01:57:37 INFO Client: Uploading resource s3://cs6240-ranjan-hw1/spark-demo.jar -> hdfs://ip-172-31-43-75.ec2.internal:8020/user/hadoop/.sparkStaging/application_1779587745463_0001/spark-demo.jar
+26/05/24 01:57:38 INFO S3NativeFileSystem: Opening 's3://cs6240-ranjan-hw1/spark-demo.jar' for reading
+26/05/24 01:57:39 INFO Client: Uploading resource file:/etc/hudi/conf.dist/hudi-defaults.conf -> hdfs://ip-172-31-43-75.ec2.internal:8020/user/hadoop/.sparkStaging/application_1779587745463_0001/hudi-defaults.conf
+26/05/24 01:57:40 INFO Client: Uploading resource file:/mnt/tmp/spark-f982fbc2-5ac3-4ea7-893c-e6216f464a1d/__spark_conf__10196648068676279424.zip -> hdfs://ip-172-31-43-75.ec2.internal:8020/user/hadoop/.sparkStaging/application_1779587745463_0001/__spark_conf__.zip
+26/05/24 01:57:40 INFO SecurityManager: Changing view acls to: hadoop
+26/05/24 01:57:40 INFO SecurityManager: Changing modify acls to: hadoop
+26/05/24 01:57:40 INFO SecurityManager: Changing view acls groups to: 
+26/05/24 01:57:40 INFO SecurityManager: Changing modify acls groups to: 
+26/05/24 01:57:40 INFO SecurityManager: SecurityManager: authentication disabled; ui acls disabled; users  with view permissions: Set(hadoop); groups with view permissions: Set(); users  with modify permissions: Set(hadoop); groups with modify permissions: Set()
+26/05/24 01:57:40 INFO Client: Submitting application application_1779587745463_0001 to ResourceManager
+26/05/24 01:57:41 INFO YarnClientImpl: Submitted application application_1779587745463_0001
+26/05/24 01:57:42 INFO Client: Application report for application_1779587745463_0001 (state: ACCEPTED)
+26/05/24 01:57:42 INFO Client: 
+	 client token: N/A
+	 diagnostics: [Sun May 24 01:57:41 +0000 2026] Scheduler has assigned a container for AM, waiting for AM container to be launched
+	 ApplicationMaster host: N/A
+	 ApplicationMaster RPC port: -1
+	 queue: default
+	 start time: 1779587860650
+	 final status: UNDEFINED
+	 tracking URL: http://ip-172-31-43-75.ec2.internal:20888/proxy/application_1779587745463_0001/
+	 user: hadoop
+26/05/24 01:57:43 INFO Client: Application report for application_1779587745463_0001 (state: ACCEPTED)
+26/05/24 01:57:44 INFO Client: Application report for application_1779587745463_0001 (state: ACCEPTED)
+26/05/24 01:57:45 INFO Client: Application report for application_1779587745463_0001 (state: ACCEPTED)
+26/05/24 01:57:46 INFO Client: Application report for application_1779587745463_0001 (state: ACCEPTED)
+26/05/24 01:57:47 INFO Client: Application report for application_1779587745463_0001 (state: ACCEPTED)
+26/05/24 01:57:48 INFO Client: Application report for application_1779587745463_0001 (state: ACCEPTED)
+26/05/24 01:57:49 INFO Client: Application report for application_1779587745463_0001 (state: ACCEPTED)
+26/05/24 01:57:50 INFO Client: Application report for application_1779587745463_0001 (state: ACCEPTED)
+26/05/24 01:57:51 INFO Client: Application report for application_1779587745463_0001 (state: ACCEPTED)
+26/05/24 01:57:52 INFO Client: Application report for application_1779587745463_0001 (state: ACCEPTED)
+26/05/24 01:57:53 INFO Client: Application report for application_1779587745463_0001 (state: ACCEPTED)
+26/05/24 01:57:54 INFO Client: Application report for application_1779587745463_0001 (state: ACCEPTED)
+26/05/24 01:57:55 INFO Client: Application report for application_1779587745463_0001 (state: ACCEPTED)
+26/05/24 01:57:56 INFO Client: Application report for application_1779587745463_0001 (state: ACCEPTED)
+26/05/24 01:57:57 INFO Client: Application report for application_1779587745463_0001 (state: ACCEPTED)
+26/05/24 01:57:58 INFO Client: Application report for application_1779587745463_0001 (state: ACCEPTED)
+26/05/24 01:57:59 INFO Client: Application report for application_1779587745463_0001 (state: ACCEPTED)
+26/05/24 01:58:00 INFO Client: Application report for application_1779587745463_0001 (state: RUNNING)
+26/05/24 01:58:00 INFO Client: 
+	 client token: N/A
+	 diagnostics: N/A
+	 ApplicationMaster host: ip-172-31-42-120.ec2.internal
+	 ApplicationMaster RPC port: 39325
+	 queue: default
+	 start time: 1779587860650
+	 final status: UNDEFINED
+	 tracking URL: http://ip-172-31-43-75.ec2.internal:20888/proxy/application_1779587745463_0001/
+	 user: hadoop
+26/05/24 01:58:01 INFO Client: Application report for application_1779587745463_0001 (state: RUNNING)
+26/05/24 01:58:02 INFO Client: Application report for application_1779587745463_0001 (state: RUNNING)
+26/05/24 01:58:03 INFO Client: Application report for application_1779587745463_0001 (state: RUNNING)
+26/05/24 01:58:04 INFO Client: Application report for application_1779587745463_0001 (state: RUNNING)
+26/05/24 01:58:05 INFO Client: Application report for application_1779587745463_0001 (state: RUNNING)
+26/05/24 01:58:06 INFO Client: Application report for application_1779587745463_0001 (state: RUNNING)
+26/05/24 01:58:07 INFO Client: Application report for application_1779587745463_0001 (state: RUNNING)
+26/05/24 01:58:08 INFO Client: Application report for application_1779587745463_0001 (state: RUNNING)
+26/05/24 01:58:09 INFO Client: Application report for application_1779587745463_0001 (state: RUNNING)
+26/05/24 01:58:10 INFO Client: Application report for application_1779587745463_0001 (state: RUNNING)
+26/05/24 01:58:11 INFO Client: Application report for application_1779587745463_0001 (state: RUNNING)
+26/05/24 01:58:12 INFO Client: Application report for application_1779587745463_0001 (state: RUNNING)
+26/05/24 01:58:13 INFO Client: Application report for application_1779587745463_0001 (state: RUNNING)
+26/05/24 01:58:14 INFO Client: Application report for application_1779587745463_0001 (state: RUNNING)
+26/05/24 01:58:15 INFO Client: Application report for application_1779587745463_0001 (state: RUNNING)
+26/05/24 01:58:16 INFO Client: Application report for application_1779587745463_0001 (state: RUNNING)
+26/05/24 01:58:17 INFO Client: Application report for application_1779587745463_0001 (state: RUNNING)
+26/05/24 01:58:18 INFO Client: Application report for application_1779587745463_0001 (state: RUNNING)
+26/05/24 01:58:19 INFO Client: Application report for application_1779587745463_0001 (state: FINISHED)
+26/05/24 01:58:19 INFO Client: 
+	 client token: N/A
+	 diagnostics: N/A
+	 ApplicationMaster host: ip-172-31-42-120.ec2.internal
+	 ApplicationMaster RPC port: 39325
+	 queue: default
+	 start time: 1779587860650
+	 final status: SUCCEEDED
+	 tracking URL: http://ip-172-31-43-75.ec2.internal:20888/proxy/application_1779587745463_0001/
+	 user: hadoop
+26/05/24 01:58:19 INFO ShutdownHookManager: Shutdown hook called
+26/05/24 01:58:19 INFO ShutdownHookManager: Deleting directory /mnt/tmp/spark-f982fbc2-5ac3-4ea7-893c-e6216f464a1d
+26/05/24 01:58:19 INFO ShutdownHookManager: Deleting directory /mnt/tmp/spark-08f63a1d-7646-4c65-b640-3ead46b516ad
+Command exiting with ret '0'
